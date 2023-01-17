@@ -1,0 +1,46 @@
+h1,
+h2 {
+  font-family: Helvetica;
+  color: blue;
+}
+
+.header {
+  padding: 0px;
+  width: 100%;
+  background-color: #5c74b5;
+  color: #060c54;
+  height: 75px;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  margin-top: auto;
+}
+
+.footer {
+  padding: 0px;
+  width: 100%;
+  background-color: #5c74b5;
+  color: #060c54;
+  height: 75px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+.dashboard-grid {
+  display: grid;
+  gap: 1rem;
+  padding: 2rem;
+  grid-auto-rows: 150px;
+  grid-auto-columns: 200px;
+  grid-auto-flow: column;
+  justify-content: center;
+  margin-top: 75px;
+  overflow: auto;
+}
